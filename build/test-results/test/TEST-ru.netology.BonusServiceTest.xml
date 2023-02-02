@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.netology.BonusServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-02T16:38:33" hostname="I3PCWORK" time="0.018">
+  <properties/>
+  <testcase name="remainTest1()" classname="ru.netology.BonusServiceTest" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
