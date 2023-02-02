@@ -3,7 +3,7 @@ package ru.netology;
 import org.junit.jupiter.api.Test;
 import ru.netology.unit.BonusService;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class BonusServiceTest {
 
@@ -18,26 +18,19 @@ class BonusServiceTest {
         assertEquals(expected, actual);
     }
 
+    @Test
     void remainTest2() {
         BonusService service = new BonusService();
-        int expected = 500;
-        int amount = 500;
+        int expected = 0;
+        int amount = 1000;
 
         int actual = service.remain(amount);
 
         assertEquals(expected, actual);
     }
 
+    @Test
     void remainTest3() {
-        BonusService service = new BonusService();
-        int expected = 100;
-        int amount = 900;
-
-        int actual = service.remain(amount);
-
-        assertEquals(expected, actual);
-    }
-    void remainTest4() {
         BonusService service = new BonusService();
         int expected = 1000;
         int amount = 0;
@@ -46,6 +39,8 @@ class BonusServiceTest {
 
         assertEquals(expected, actual);
     }
-
 }
+
+
+
 
