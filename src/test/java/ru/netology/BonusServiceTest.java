@@ -1,9 +1,9 @@
 package ru.netology;
 
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 import ru.netology.unit.BonusService;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.testng.Assert.assertEquals;
 
 public class BonusServiceTest {
     @Test
