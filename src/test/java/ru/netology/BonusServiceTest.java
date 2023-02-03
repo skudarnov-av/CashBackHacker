@@ -21,8 +21,8 @@ class BonusServiceTest {
     @Test
     void remainTest2() {
         BonusService service = new BonusService();
-        int expected = 0;
-        int amount = 1000;
+        int expected = 100;
+        int amount = 900;
 
         int actual = service.remain(amount);
 
